@@ -20,39 +20,7 @@ The project explores the design and testing of a bioinspired legged robot using 
   Full Bill of Materials, including motors, acrylic sheet, and LEGO parts.
 
 - **dta.xlsx**  
-  Experimental data collected from robot locomotion tests (voltage scaling and terrain adaptability).
+  Experimental data collected from robot locomotion tests (voltage scaling).
 
 - **plot.m**  
-  MATLAB script for visualizing experimental results (speed vs. voltage, terrain performance).
-
-- **README.md**  
-  Project overview (this file).
-
----
-
-## 🔧 Project Highlights
-
-- **Two CAD Versions**: Prototype (3D-printed parts + screws) vs. Improved design (laser-cut + LEGO + flexure hinges).  
-- **Low-Cost Fabrication**: Unit cost of ~£33.72, fabrication time reduced from 109 minutes (prototype) to 27 minutes (improved).  
-- **Experimental Validation**:  
-  - Voltage scaling (12–24 V)  
-  - Terrain adaptability (desk, fabric, grass, pavement)  
-- **Compact Actuation**: VAM-based locomotion using only **two motors** (DC motor + servo).
-
----
-
-## 📊 Results Summary
-
-- **Optimal acrylic thickness**: 1.0–1.2 mm (balance between stress safety and motor torque).  
-- **Fabrication cost**: £33.72 per unit.  
-- **Locomotion performance**: Stable alternating tripod gait across multiple terrains.  
-
----
-
-## 📎 References
-
-- Espen Knoop, Andrew Conn, and Jonathan Rossiter, *“VAM: Hypocycloid Mechanism for Efficient Bioinspired Robotic Gaits”*, IEEE Robotics and Automation Letters, 2017.  
-- Yijie Chen, *MSc Dissertation, University of Bristol & UWE, 2025*.
-
----
-
+  MATLAB script for visualizing experimental results (speed vs. voltage).
